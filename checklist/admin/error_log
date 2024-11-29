@@ -1,0 +1,32 @@
+[04-Jun-2024 16:43:52 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 20
+[04-Jun-2024 16:44:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:20
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 20
+[04-Jun-2024 17:36:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:115
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 115
+[04-Jun-2024 17:37:02 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:115
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 115
+[04-Jun-2024 17:37:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:115
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 115
+[04-Jun-2024 17:43:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 45
+[04-Jun-2024 17:43:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 45
+[04-Jun-2024 17:43:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on bool in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php:45
+Stack trace:
+#0 {main}
+  thrown in /home/wwhise/nfe.hisense.com.br/rgb/admin/relatorio.php on line 45
