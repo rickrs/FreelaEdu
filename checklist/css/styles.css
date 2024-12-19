@@ -1,0 +1,160 @@
+@import url('https://fonts.cdnfonts.com/css/hisense-sans-alfabet');
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden !important;
+    font-family: 'Hisense Sans Alfabet', sans-serif;
+}
+
+.hero-container {
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    /* Ajuste a altura conforme necessário */
+    display: flex;
+    justify-content: flex-start;
+    /* Posiciona o conteúdo à esquerda */
+    align-items: center;
+    /* Centraliza verticalmente */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse o container */
+}
+
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* Garante que a imagem cubra todo o container */
+    object-position: left;
+    /* Posiciona o foco da imagem à esquerda */
+}
+
+.user-logo {
+    width: 25px;
+    height: 25px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+}
+
+.breadcrumb-item a {
+    color: #00B3AC !important;
+    font-weight: bold;
+    border-bottom: 2px #00B3AC !important;
+}
+
+.btn-select:hover {
+    filter: brightness(96%);
+    transition: 300;
+}
+
+.btn-submit {
+    border-radius: 2rem !important;
+}
+
+.btn-submit:hover {
+    box-shadow: 0px 26px 41px -22px rgba(0, 0, 0, 0.45);
+    background-color: #00B3AC;
+    border: 1px solid #00B3AC;
+}
+
+select.form-control {
+    appearance: none;
+    /* Remove o estilo padrão */
+    -webkit-appearance: none;
+    /* Para navegadores WebKit */
+    -moz-appearance: none;
+    /* Para Firefox */
+    font-size: 16px;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg xmlns='http://www.w3.org/2000/svg' width='292.4' height='292.4'%3E%3Cpath fill='%23a2a2a3' d='M287 69.4L169.8 186.6c-9.4 9.4-24.6 9.4-33.9 0L5.4 69.4C-1.8 63.1-1.8 51.9 5.4 45.6s16.8-7.2 23 0l117 117 117-117c6.2-6.2 16.4-6.2 23 0s7.2 16.8 0 23z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 12px top 13px;
+    background-size: 16px;
+    transition: all 0.3s ease;
+}
+
+select.form-control:hover {
+    border-color: #00B3AC;
+    cursor: pointer;
+}
+
+select.form-control:focus {
+    outline: none;
+    border-color: #00B3AC;
+    box-shadow: 0 0 5px rgba(0, 179, 173, 0.2);
+}
+
+/* Ajusta para browsers antigos */
+select.form-control::-ms-expand {
+    display: none;
+    /* Remove o ícone padrão em IE */
+}
+
+/* Estilização Geral para Checkbox e Radio */
+.form-check-input {
+    width: 20px;
+    height: 20px;
+    border: 2px solid #a2a2a3;
+    border-radius: 50%;
+    /* Torna os inputs redondos */
+    outline: none;
+    box-shadow: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.form-check-input:checked {
+    background-color: #00B3AC;
+    /* Cor do fundo quando marcado */
+    border-color: #00B3AC;
+    /* Cor da borda quando marcado */
+}
+
+/* Cor para Radio Buttons */
+.form-check-input[type="radio"] {
+    border-radius: 50%;
+    /* Garante que o radio seja circular */
+}
+
+/* Personalização do Hover */
+.form-check-input:hover {
+    border-color: #00B3AC;
+    filter: brightness(95%);
+}
+
+/* Ajuste de foco */
+.form-check-input:focus {
+    box-shadow: 0 0 5px rgba(0, 179, 172, 0.5);
+    border-color: #00B3AC;
+}
+
+/* Alinhamento do texto ao lado */
+.form-check-label {
+    margin-left: 8px;
+    font-size: 16px;
+    color: #333;
+    /* Ajuste opcional da cor do texto */
+    cursor: pointer;
+}
+
+/* Esconde o input */
+input[type='file'] {
+    display: none
+}
+
+/* Aparência que terá o seletor de arquivo */
+.image-input {
+    background-color: #00B3AC;
+    border-radius: 20px;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px
+}
+
+.image-input::before {
+    content: "📷";
+    margin-right: 10px;
+    font-size: 25px;
+}
