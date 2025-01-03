@@ -213,7 +213,7 @@ if (!isset($_SESSION['user_name'])) {
             "Notável", // 2
             "Chama a atenção", // 3
             "Elegante", // 4
-            "Premium e Aspiracioal", // 5
+            "Premium e Aspiracional", // 5
         ];
 
         const rangeInput = document.getElementById("myRange");
